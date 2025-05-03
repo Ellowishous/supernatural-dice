@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Supernatural Path</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(ellipse at center, #111 0%, #000 100%);
+      color: #e0e0e0;
+      font-family: 'Cinzel', serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    input {
+      background: #222;
+      border: 1px solid #555;
+      color: #e0e0e0;
+      font-size: 1.2em;
+      width: 50px;
+      text-align: center;
+      margin: 0 5px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 1em;
+      background: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    .result {
+      margin-top: 40px;
+      max-width: 600px;
+      font-size: 1.1em;
+      line-height: 1.6em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Reveal Your Fate</h1>
+  <p>Enter the numbers you rolled:</p>
+  <div>
+    <input type="number" id="location" min="1" max="6" placeholder="L">
+    <input type="number" id="action" min="1" max="6" placeholder="A">
+    <input type="number" id="fate" min="1" max="6" placeholder="F">
+  </div>
+  <button onclick="revealPath()">Reveal Your Path</button>
+
+  <div class="result" id="result"></div>
+
+  <script>
+    const paths = {
+      "1-1-1": "You entered the Haunted Asylum, performed a forbidden summoning, and are now trapped in eternal slumber.",
+      "2-4-3": "You explored the Abandoned Church, unleashed forgotten wrath, and found rebirth through fire.",
+      // Add more combinations here as desired...
+    };
+
+    function revealPath() {
+      const l = document.getElementById('location').value;
+      const a = document.getElementById('action').value;
+      const f = document.getElementById('fate').value;
+      const key = `${l}-${a}-${f}`;
+      const story = paths[key] || "The spirits are silent... this path has yet to be uncovered.";
+      document.getElementById('result').textContent = story;
+    }
+  </script>
+</body>
+</html>
