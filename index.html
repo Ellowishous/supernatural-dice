@@ -19,44 +19,48 @@
       text-align: center;
     }
     h1 {
-      font-size: 3em;
-      margin-bottom: 20px;
+      font-size: 6em;
+      margin-bottom: 30px;
+      padding: 0 20px;
     }
     p {
-      font-size: 1.5em;
-      margin-bottom: 20px;
+      font-size: 3em;
+      margin-bottom: 40px;
     }
     input {
       background: #222;
-      border: 2px solid #555;
+      border: 3px solid #555;
       color: #e0e0e0;
-      font-size: 2em;
-      width: 70px;
+      font-size: 3em;
+      width: 120px;
       text-align: center;
-      margin: 0 10px;
-      padding: 10px;
-      border-radius: 8px;
+      margin: 0 15px;
+      padding: 20px;
+      border-radius: 10px;
+      box-sizing: border-box;
     }
     button {
-      margin-top: 30px;
-      padding: 15px 30px;
-      font-size: 1.5em;
+      margin-top: 50px;
+      padding: 25px 50px;
+      font-size: 2em;
       background: #333;
       color: #fff;
       border: none;
-      border-radius: 10px;
+      border-radius: 15px;
       cursor: pointer;
       transition: background 0.3s ease;
+      width: 300px;
+      height: 80px;
     }
     button:hover {
       background: #555;
     }
     .result {
       margin-top: 50px;
-      max-width: 800px;
-      font-size: 1.5em;
-      line-height: 1.8em;
-      padding: 0 20px;
+      max-width: 900px;
+      font-size: 2em;
+      line-height: 2em;
+      padding: 0 30px;
     }
   </style>
 </head>
@@ -73,11 +77,33 @@
   <div class="result" id="result"></div>
 
   <script>
-    const paths = {
-      "1-1-1": "You entered the Haunted Asylum, performed a forbidden summoning, and are now trapped in eternal slumber.",
-      "2-4-3": "You explored the Abandoned Church, unleashed forgotten wrath, and found rebirth through fire.",
-      // Add more combinations here as desired...
-    };
+    const locations = [
+      "Abandoned Asylum", "Foggy Graveyard", "Cursed Cathedral",
+      "Haunted Forest", "Mirror Dimension", "Ghostly Crypt"
+    ];
+    const actions = [
+      "Summon a spirit", "Speak to the dead", "Find a hidden relic",
+      "Face a phantom", "Release a curse", "Investigate the grounds"
+    ];
+    const fates = [
+      "You succeed – but something followed you back.",
+      "You fail – the curse spreads.",
+      "You vanish – your name is forgotten.",
+      "You succeed – but at what cost?",
+      "The supernatural takes over.",
+      "You awaken – was it all a dream?"
+    ];
+
+    const paths = {};
+    for (let l = 1; l <= 6; l++) {
+      for (let a = 1; a <= 6; a++) {
+        for (let f = 1; f <= 6; f++) {
+          const key = `${l}-${a}-${f}`;
+          const story = `You arrive at the ${locations[l - 1].toLowerCase()}, where you ${actions[a - 1].toLowerCase()}. ${fates[f - 1]}`;
+          paths[key] = story;
+        }
+      }
+    }
 
     function revealPath() {
       const l = document.getElementById('location').value;
@@ -90,4 +116,3 @@
   </script>
 </body>
 </html>
-
