@@ -1,38 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Whispers of Fate</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Your Supernatural Path</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(ellipse at center, #111 0%, #000 100%);
+      color: #e0e0e0;
+      font-family: 'Cinzel', serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+    input {
+      background: #222;
+      border: 2px solid #555;
+      color: #e0e0e0;
+      font-size: 2em;
+      width: 70px;
+      text-align: center;
+      margin: 0 10px;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    button {
+      margin-top: 30px;
+      padding: 15px 30px;
+      font-size: 1.5em;
+      background: #333;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #555;
+    }
+    .result {
+      margin-top: 50px;
+      max-width: 800px;
+      font-size: 1.5em;
+      line-height: 1.8em;
+      padding: 0 20px;
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <h1 class="title">Whispers of Fate</h1>
-    <div class="input-section hidden">
-      <label for="roll">Enter your roll (e.g. 123):</label>
-      <input type="text" id="roll" maxlength="3" />
-      <button onclick="showStory()">Reveal Your Fate</button>
-    </div>
-    <div id="story" class="story"></div>
+  <h1>Reveal Your Fate</h1>
+  <p>Enter the numbers you rolled:</p>
+  <div>
+    <input type="number" id="location" min="1" max="6" placeholder="L">
+    <input type="number" id="action" min="1" max="6" placeholder="A">
+    <input type="number" id="fate" min="1" max="6" placeholder="F">
   </div>
+  <button onclick="revealPath()">Reveal Your Path</button>
+
+  <div class="result" id="result"></div>
 
   <script>
-    window.onload = () => {
-      const title = document.querySelector('.title');
-      const inputSection = document.querySelector('.input-section');
-      title.classList.add('fade-in');
-      setTimeout(() => {
-        inputSection.classList.remove('hidden');
-        inputSection.classList.add('fade-in');
-      }, 2500);
+    const paths = {
+      "1-1-1": "You entered the Haunted Asylum, performed a forbidden summoning, and are now trapped in eternal slumber.",
+      "2-4-3": "You explored the Abandoned Church, unleashed forgotten wrath, and found rebirth through fire.",
+      // Add more combinations here as desired...
     };
 
-    function showStory() {
-      const roll = document.getElementById('roll').value;
-      const story = document.getElementById('story');
-      // You’ll replace this with your story lookup logic later
-      story.innerText = "Story for roll: " + roll;
+    function revealPath() {
+      const l = document.getElementById('location').value;
+      const a = document.getElementById('action').value;
+      const f = document.getElementById('fate').value;
+      const key = `${l}-${a}-${f}`;
+      const story = paths[key] || "The spirits are silent... this path has yet to be uncovered.";
+      document.getElementById('result').textContent = story;
     }
   </script>
 </body>
