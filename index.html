@@ -2,91 +2,76 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Your Supernatural Path</title>
+  <title>Fate Whispers in Threes</title>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       padding: 0;
       background: radial-gradient(ellipse at center, #111 0%, #000 100%);
-      color: #e0e0e0;
+      color: #f5f5f5;
       font-family: 'Cinzel', serif;
       display: flex;
-      flex-direction: column;
       align-items: center;
       justify-content: center;
       height: 100vh;
-      text-align: center;
+      overflow: hidden;
     }
-    h1 {
+    .intro {
+      text-align: center;
       font-size: 3em;
-      margin-bottom: 20px;
+      opacity: 0;
+      animation: fadeIn 3s ease forwards;
     }
-    p {
+    .word {
+      display: block;
+      opacity: 0;
+      animation: fadeWord 3s ease forwards;
+    }
+    .word:nth-child(1) {
+      animation-delay: 0s;
+    }
+    .word:nth-child(2) {
+      animation-delay: 3s;
+    }
+    .word:nth-child(3) {
+      animation-delay: 6s;
+    }
+    @keyframes fadeWord {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+    #begin {
+      display: none;
+      margin-top: 50px;
       font-size: 1.5em;
-      margin-bottom: 20px;
-    }
-    input {
-      background: #222;
-      border: 2px solid #555;
-      color: #e0e0e0;
-      font-size: 2em;
-      width: 70px;
-      text-align: center;
-      margin: 0 10px;
-      padding: 10px;
-      border-radius: 8px;
-    }
-    button {
-      margin-top: 30px;
-      padding: 15px 30px;
-      font-size: 1.5em;
+      padding: 20px 40px;
       background: #333;
-      color: #fff;
+      color: white;
       border: none;
       border-radius: 10px;
       cursor: pointer;
-      transition: background 0.3s ease;
     }
-    button:hover {
+    #begin:hover {
       background: #555;
-    }
-    .result {
-      margin-top: 50px;
-      max-width: 800px;
-      font-size: 1.5em;
-      line-height: 1.8em;
-      padding: 0 20px;
     }
   </style>
 </head>
 <body>
-  <h1>Reveal Your Fate</h1>
-  <p>Enter the numbers you rolled:</p>
-  <div>
-    <input type="number" id="location" min="1" max="6" placeholder="L">
-    <input type="number" id="action" min="1" max="6" placeholder="A">
-    <input type="number" id="fate" min="1" max="6" placeholder="F">
+  <div class="intro">
+    <span class="word">Fate</span>
+    <span class="word">Whispers</span>
+    <span class="word">in Threes</span>
+    <button id="begin" onclick="window.location.href='index.html'">Begin</button>
   </div>
-  <button onclick="revealPath()">Reveal Your Path</button>
-
-  <div class="result" id="result"></div>
-
   <script>
-    const paths = {
-      "1-1-1": "You entered the Haunted Asylum, performed a forbidden summoning, and are now trapped in eternal slumber.",
-      "2-4-3": "You explored the Abandoned Church, unleashed forgotten wrath, and found rebirth through fire.",
-      // Add more combinations here as desired...
-    };
-
-    function revealPath() {
-      const l = document.getElementById('location').value;
-      const a = document.getElementById('action').value;
-      const f = document.getElementById('fate').value;
-      const key = `${l}-${a}-${f}`;
-      const story = paths[key] || "The spirits are silent... this path has yet to be uncovered.";
-      document.getElementById('result').textContent = story;
-    }
+    setTimeout(() => {
+      document.getElementById('begin').style.display = 'inline-block';
+    }, 9500);
   </script>
 </body>
 </html>
+
