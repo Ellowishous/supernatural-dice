@@ -1,114 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Whispers of Fate</title>
-    <style>
-        body {
-            font-family: 'Courier New', Courier, monospace;
-            background-color: #1a1a1a;
-            color: #ccc;
-            text-align: center;
-            padding: 50px;
-            background-image: url('https://example.com/dark-background.jpg'); /* Replace with your background image URL */
-            background-size: cover;
-            background-position: center;
-            box-sizing: border-box;
-        }
-        h1 {
-            font-size: 3em;
-            color: #ffcc00;
-            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-            margin-bottom: 20px;
-        }
-        p {
-            font-size: 1.2em;
-            margin-bottom: 20px;
-            color: #ddd;
-        }
-        input, button {
-            font-size: 1.5em;
-            padding: 15px;
-            margin: 15px;
-            border: 2px solid #444;
-            background-color: #222;
-            color: #fff;
-            text-align: center;
-            border-radius: 5px;
-            transition: all 0.3s ease;
-        }
-        input {
-            width: 200px;
-        }
-        button {
-            width: 220px;
-            cursor: pointer;
-        }
-        button:hover, input:hover {
-            background-color: #444;
-            border-color: #ffcc00;
-            color: #ffcc00;
-        }
-        #story {
-            margin-top: 40px;
-            font-size: 1.5em;
-            color: #bbb;
-            line-height: 1.6;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
-        }
-        #story h2 {
-            font-size: 2em;
-            margin-bottom: 20px;
-            color: #ffcc00;
-        }
-        #story p {
-            margin-bottom: 20px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Fate Whispers in Threes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(ellipse at center, #111 0%, #000 100%);
+      color: #f5f5f5;
+      font-family: 'Cinzel', serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+    .intro {
+      text-align: center;
+      font-size: 3em;
+      opacity: 0;
+      animation: fadeIn 3s ease forwards;
+    }
+    .word {
+      display: block;
+      opacity: 0;
+      animation: fadeWord 3s ease forwards;
+    }
+    .word:nth-child(1) {
+      animation-delay: 0s;
+    }
+    .word:nth-child(2) {
+      animation-delay: 3s;
+    }
+    .word:nth-child(3) {
+      animation-delay: 6s;
+    }
+    @keyframes fadeWord {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+    #begin {
+      display: none;
+      margin-top: 50px;
+      font-size: 1.5em;
+      padding: 20px 40px;
+      background: #333;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    #begin:hover {
+      background: #555;
+    }
+  </style>
 </head>
 <body>
-
-    <h1>Whispers of Fate</h1>
-    <p>Enter the 3-digit number you rolled (e.g., 123) to reveal your fate.</p>
-    <input type="text" id="roll" maxlength="3" placeholder="e.g. 123" />
-    <button onclick="showStory()">Reveal Your Fate</button>
-    <div id="story"></div>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            let paths = {};
-
-            // Fetch the paths JSON file
-            fetch('whispers_of_fate_paths.json')
-                .then(response => response.json())
-                .then(data => {
-                    paths = data;
-                });
-
-            // Function to display the story based on the roll
-            window.showStory = function () {
-                const roll = document.getElementById('roll').value.trim();
-                const storyDiv = document.getElementById('story');
-
-                // Check if the roll number exists in the paths data
-                if (paths[roll]) {
-                    const entry = paths[roll];
-                    storyDiv.innerHTML = `
-                        <h2>${entry.location}</h2>
-                        <p><strong>Action:</strong> ${entry.action}</p>
-                        <p><strong>Fate:</strong> ${entry.fate}</p>
-                        <p>${entry.story}</p>
-                    `;
-                } else {
-                    storyDiv.innerHTML = "<p>Please enter a valid 3-digit roll (111 to 666).</p>";
-                }
-            };
-        });
-    </script>
-
+  <div class="intro">
+    <span class="word">Fate</span>
+    <span class="word">Whispers</span>
+    <span class="word">in Threes</span>
+    <button id="begin" onclick="window.location.href='index.html'">Begin</button>
+  </div>
+  <script>
+    setTimeout(() => {
+      document.getElementById('begin').style.display = 'inline-block';
+    }, 9500);
+  </script>
 </body>
 </html>
