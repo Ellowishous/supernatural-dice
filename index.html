@@ -1,167 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Whispers Of Fate</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background: radial-gradient(ellipse at center, #111 0%, #000 100%);
-      color: #f5f5f5;
-      font-family: 'Cinzel', serif;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      overflow: hidden;
-    }
-    .intro {
-      text-align: center;
-      font-size: 3em;
-      opacity: 0;
-      animation: fadeIn 3s ease forwards;
-    }
-    .word {
-      display: block;
-      opacity: 0;
-      animation: fadeWord 3s ease forwards;
-    }
-    .word:nth-child(1) {
-      animation-delay: 0s;
-    }
-    .word:nth-child(2) {
-      animation-delay: 3s;
-    }
-    .word:nth-child(3) {
-      animation-delay: 6s;
-    }
-    @keyframes fadeWord {
-      0% { opacity: 0; transform: translateY(20px); }
-      100% { opacity: 1; transform: translateY(0); }
-    }
-    @keyframes fadeIn {
-      to { opacity: 1; }
-    }
-    #begin {
-      display: none;
-      margin-top: 50px;
-      font-size: 1.5em;
-      padding: 20px 40px;
-      background: #333;
-      color: white;
-      border: none;
-      border-radius: 10px;
-      cursor: pointer;
-    }
-    #begin:hover {
-      background: #555;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Whispers of Fate</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="intro">
-    <span class="word">Whispers</span>
-    <span class="word">Of</span>
-    <span class="word">Fate</span>
+  <div class="container">
+    <h1 class="title">Whispers of Fate</h1>
+    <div class="input-section hidden">
+      <label for="roll">Enter your roll (e.g. 123):</label>
+      <input type="text" id="roll" maxlength="3" />
+      <button onclick="showStory()">Reveal Your Fate</button>
+    </div>
+    <div id="story" class="story"></div>
   </div>
-  <script>
-    setTimeout(() => {
-    }, 9500);
-  </script>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Your Supernatural Path</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background: radial-gradient(ellipse at center, #111 0%, #000 100%);
-      color: #e0e0e0;
-      font-family: 'Cinzel', serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      text-align: center;
-    }
-    h1 {
-      font-size: 3em;
-      margin-bottom: 20px;
-    }
-    p {
-      font-size: 1.5em;
-      margin-bottom: 20px;
-    }
-    input {
-      background: #222;
-      border: 2px solid #555;
-      color: #e0e0e0;
-      font-size: 2em;
-      width: 70px;
-      text-align: center;
-      margin: 0 10px;
-      padding: 10px;
-      border-radius: 8px;
-    }
-    button {
-      margin-top: 30px;
-      padding: 15px 30px;
-      font-size: 1.5em;
-      background: #333;
-      color: #fff;
-      border: none;
-      border-radius: 10px;
-      cursor: pointer;
-      transition: background 0.3s ease;
-    }
-    button:hover {
-      background: #555;
-    }
-    .result {
-      margin-top: 50px;
-      max-width: 800px;
-      font-size: 1.5em;
-      line-height: 1.8em;
-      padding: 0 20px;
-    }
-  </style>
-</head>
-<body>
-  <h1>Reveal Your Fate</h1>
-  <p>Enter the numbers you rolled:</p>
-  <div>
-    <input type="number" id="location" min="1" max="6" placeholder="L">
-    <input type="number" id="action" min="1" max="6" placeholder="A">
-    <input type="number" id="fate" min="1" max="6" placeholder="F">
-  </div>
-  <button onclick="revealPath()">Reveal Your Path</button>
-
-  <div class="result" id="result"></div>
 
   <script>
-    const paths = {
-      "1-1-1": "You entered the Haunted Asylum, performed a forbidden summoning, and are now trapped in eternal slumber.",
-      "2-4-3": "You explored the Abandoned Church, unleashed forgotten wrath, and found rebirth through fire.",
-      // Add more combinations here as desired...
+    window.onload = () => {
+      const title = document.querySelector('.title');
+      const inputSection = document.querySelector('.input-section');
+      title.classList.add('fade-in');
+      setTimeout(() => {
+        inputSection.classList.remove('hidden');
+        inputSection.classList.add('fade-in');
+      }, 2500);
     };
 
-    function revealPath() {
-      const l = document.getElementById('location').value;
-      const a = document.getElementById('action').value;
-      const f = document.getElementById('fate').value;
-      const key = `${l}-${a}-${f}`;
-      const story = paths[key] || "The spirits are silent... this path has yet to be uncovered.";
-      document.getElementById('result').textContent = story;
+    function showStory() {
+      const roll = document.getElementById('roll').value;
+      const story = document.getElementById('story');
+      // You’ll replace this with your story lookup logic later
+      story.innerText = "Story for roll: " + roll;
     }
   </script>
 </body>
 </html>
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: #0d0d0d;
+  color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.title {
+  font-size: 3em;
+  opacity: 0;
+  transition: opacity 2s ease-in;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.input-section {
+  margin-top: 40px;
+  font-size: 1.2em;
+  opacity: 0;
+  transition: opacity 2s ease-in;
+}
+
+.input-section input {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1em;
+  width: 80px;
+  text-align: center;
+}
+
+.input-section button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.story {
+  margin-top: 30px;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.hidden {
+  display: none;
+}
