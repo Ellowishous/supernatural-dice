@@ -1,0 +1,1298 @@
+{
+  "111": {
+    "location": "Abandoned Asylum",
+    "action": "Summon a Spirit",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the abandoned asylum, you chose to summon a spirit. You succeed \u2013 but something followed you back."
+  },
+  "112": {
+    "location": "Abandoned Asylum",
+    "action": "Summon a Spirit",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the abandoned asylum, you chose to summon a spirit. You fail \u2013 the curse spreads."
+  },
+  "113": {
+    "location": "Abandoned Asylum",
+    "action": "Summon a Spirit",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the abandoned asylum, you chose to summon a spirit. You vanish \u2013 your name is forgotten."
+  },
+  "114": {
+    "location": "Abandoned Asylum",
+    "action": "Summon a Spirit",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the abandoned asylum, you chose to summon a spirit. You succeed \u2013 but at what cost?"
+  },
+  "115": {
+    "location": "Abandoned Asylum",
+    "action": "Summon a Spirit",
+    "fate": "The supernatural takes over.",
+    "story": "In the abandoned asylum, you chose to summon a spirit. The supernatural takes over."
+  },
+  "116": {
+    "location": "Abandoned Asylum",
+    "action": "Summon a Spirit",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the abandoned asylum, you chose to summon a spirit. You awaken \u2013 was it all a dream?"
+  },
+  "121": {
+    "location": "Abandoned Asylum",
+    "action": "Speak to the Dead",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the abandoned asylum, you chose to speak to the dead. You succeed \u2013 but something followed you back."
+  },
+  "122": {
+    "location": "Abandoned Asylum",
+    "action": "Speak to the Dead",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the abandoned asylum, you chose to speak to the dead. You fail \u2013 the curse spreads."
+  },
+  "123": {
+    "location": "Abandoned Asylum",
+    "action": "Speak to the Dead",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the abandoned asylum, you chose to speak to the dead. You vanish \u2013 your name is forgotten."
+  },
+  "124": {
+    "location": "Abandoned Asylum",
+    "action": "Speak to the Dead",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the abandoned asylum, you chose to speak to the dead. You succeed \u2013 but at what cost?"
+  },
+  "125": {
+    "location": "Abandoned Asylum",
+    "action": "Speak to the Dead",
+    "fate": "The supernatural takes over.",
+    "story": "In the abandoned asylum, you chose to speak to the dead. The supernatural takes over."
+  },
+  "126": {
+    "location": "Abandoned Asylum",
+    "action": "Speak to the Dead",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the abandoned asylum, you chose to speak to the dead. You awaken \u2013 was it all a dream?"
+  },
+  "131": {
+    "location": "Abandoned Asylum",
+    "action": "Find a Hidden Relic",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the abandoned asylum, you chose to find a hidden relic. You succeed \u2013 but something followed you back."
+  },
+  "132": {
+    "location": "Abandoned Asylum",
+    "action": "Find a Hidden Relic",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the abandoned asylum, you chose to find a hidden relic. You fail \u2013 the curse spreads."
+  },
+  "133": {
+    "location": "Abandoned Asylum",
+    "action": "Find a Hidden Relic",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the abandoned asylum, you chose to find a hidden relic. You vanish \u2013 your name is forgotten."
+  },
+  "134": {
+    "location": "Abandoned Asylum",
+    "action": "Find a Hidden Relic",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the abandoned asylum, you chose to find a hidden relic. You succeed \u2013 but at what cost?"
+  },
+  "135": {
+    "location": "Abandoned Asylum",
+    "action": "Find a Hidden Relic",
+    "fate": "The supernatural takes over.",
+    "story": "In the abandoned asylum, you chose to find a hidden relic. The supernatural takes over."
+  },
+  "136": {
+    "location": "Abandoned Asylum",
+    "action": "Find a Hidden Relic",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the abandoned asylum, you chose to find a hidden relic. You awaken \u2013 was it all a dream?"
+  },
+  "141": {
+    "location": "Abandoned Asylum",
+    "action": "Face a Phantom",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the abandoned asylum, you chose to face a phantom. You succeed \u2013 but something followed you back."
+  },
+  "142": {
+    "location": "Abandoned Asylum",
+    "action": "Face a Phantom",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the abandoned asylum, you chose to face a phantom. You fail \u2013 the curse spreads."
+  },
+  "143": {
+    "location": "Abandoned Asylum",
+    "action": "Face a Phantom",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the abandoned asylum, you chose to face a phantom. You vanish \u2013 your name is forgotten."
+  },
+  "144": {
+    "location": "Abandoned Asylum",
+    "action": "Face a Phantom",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the abandoned asylum, you chose to face a phantom. You succeed \u2013 but at what cost?"
+  },
+  "145": {
+    "location": "Abandoned Asylum",
+    "action": "Face a Phantom",
+    "fate": "The supernatural takes over.",
+    "story": "In the abandoned asylum, you chose to face a phantom. The supernatural takes over."
+  },
+  "146": {
+    "location": "Abandoned Asylum",
+    "action": "Face a Phantom",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the abandoned asylum, you chose to face a phantom. You awaken \u2013 was it all a dream?"
+  },
+  "151": {
+    "location": "Abandoned Asylum",
+    "action": "Release a Curse",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the abandoned asylum, you chose to release a curse. You succeed \u2013 but something followed you back."
+  },
+  "152": {
+    "location": "Abandoned Asylum",
+    "action": "Release a Curse",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the abandoned asylum, you chose to release a curse. You fail \u2013 the curse spreads."
+  },
+  "153": {
+    "location": "Abandoned Asylum",
+    "action": "Release a Curse",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the abandoned asylum, you chose to release a curse. You vanish \u2013 your name is forgotten."
+  },
+  "154": {
+    "location": "Abandoned Asylum",
+    "action": "Release a Curse",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the abandoned asylum, you chose to release a curse. You succeed \u2013 but at what cost?"
+  },
+  "155": {
+    "location": "Abandoned Asylum",
+    "action": "Release a Curse",
+    "fate": "The supernatural takes over.",
+    "story": "In the abandoned asylum, you chose to release a curse. The supernatural takes over."
+  },
+  "156": {
+    "location": "Abandoned Asylum",
+    "action": "Release a Curse",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the abandoned asylum, you chose to release a curse. You awaken \u2013 was it all a dream?"
+  },
+  "161": {
+    "location": "Abandoned Asylum",
+    "action": "Investigate the Grounds",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the abandoned asylum, you chose to investigate the grounds. You succeed \u2013 but something followed you back."
+  },
+  "162": {
+    "location": "Abandoned Asylum",
+    "action": "Investigate the Grounds",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the abandoned asylum, you chose to investigate the grounds. You fail \u2013 the curse spreads."
+  },
+  "163": {
+    "location": "Abandoned Asylum",
+    "action": "Investigate the Grounds",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the abandoned asylum, you chose to investigate the grounds. You vanish \u2013 your name is forgotten."
+  },
+  "164": {
+    "location": "Abandoned Asylum",
+    "action": "Investigate the Grounds",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the abandoned asylum, you chose to investigate the grounds. You succeed \u2013 but at what cost?"
+  },
+  "165": {
+    "location": "Abandoned Asylum",
+    "action": "Investigate the Grounds",
+    "fate": "The supernatural takes over.",
+    "story": "In the abandoned asylum, you chose to investigate the grounds. The supernatural takes over."
+  },
+  "166": {
+    "location": "Abandoned Asylum",
+    "action": "Investigate the Grounds",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the abandoned asylum, you chose to investigate the grounds. You awaken \u2013 was it all a dream?"
+  },
+  "211": {
+    "location": "Foggy Graveyard",
+    "action": "Summon a Spirit",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the foggy graveyard, you chose to summon a spirit. You succeed \u2013 but something followed you back."
+  },
+  "212": {
+    "location": "Foggy Graveyard",
+    "action": "Summon a Spirit",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the foggy graveyard, you chose to summon a spirit. You fail \u2013 the curse spreads."
+  },
+  "213": {
+    "location": "Foggy Graveyard",
+    "action": "Summon a Spirit",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the foggy graveyard, you chose to summon a spirit. You vanish \u2013 your name is forgotten."
+  },
+  "214": {
+    "location": "Foggy Graveyard",
+    "action": "Summon a Spirit",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the foggy graveyard, you chose to summon a spirit. You succeed \u2013 but at what cost?"
+  },
+  "215": {
+    "location": "Foggy Graveyard",
+    "action": "Summon a Spirit",
+    "fate": "The supernatural takes over.",
+    "story": "In the foggy graveyard, you chose to summon a spirit. The supernatural takes over."
+  },
+  "216": {
+    "location": "Foggy Graveyard",
+    "action": "Summon a Spirit",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the foggy graveyard, you chose to summon a spirit. You awaken \u2013 was it all a dream?"
+  },
+  "221": {
+    "location": "Foggy Graveyard",
+    "action": "Speak to the Dead",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the foggy graveyard, you chose to speak to the dead. You succeed \u2013 but something followed you back."
+  },
+  "222": {
+    "location": "Foggy Graveyard",
+    "action": "Speak to the Dead",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the foggy graveyard, you chose to speak to the dead. You fail \u2013 the curse spreads."
+  },
+  "223": {
+    "location": "Foggy Graveyard",
+    "action": "Speak to the Dead",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the foggy graveyard, you chose to speak to the dead. You vanish \u2013 your name is forgotten."
+  },
+  "224": {
+    "location": "Foggy Graveyard",
+    "action": "Speak to the Dead",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the foggy graveyard, you chose to speak to the dead. You succeed \u2013 but at what cost?"
+  },
+  "225": {
+    "location": "Foggy Graveyard",
+    "action": "Speak to the Dead",
+    "fate": "The supernatural takes over.",
+    "story": "In the foggy graveyard, you chose to speak to the dead. The supernatural takes over."
+  },
+  "226": {
+    "location": "Foggy Graveyard",
+    "action": "Speak to the Dead",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the foggy graveyard, you chose to speak to the dead. You awaken \u2013 was it all a dream?"
+  },
+  "231": {
+    "location": "Foggy Graveyard",
+    "action": "Find a Hidden Relic",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the foggy graveyard, you chose to find a hidden relic. You succeed \u2013 but something followed you back."
+  },
+  "232": {
+    "location": "Foggy Graveyard",
+    "action": "Find a Hidden Relic",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the foggy graveyard, you chose to find a hidden relic. You fail \u2013 the curse spreads."
+  },
+  "233": {
+    "location": "Foggy Graveyard",
+    "action": "Find a Hidden Relic",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the foggy graveyard, you chose to find a hidden relic. You vanish \u2013 your name is forgotten."
+  },
+  "234": {
+    "location": "Foggy Graveyard",
+    "action": "Find a Hidden Relic",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the foggy graveyard, you chose to find a hidden relic. You succeed \u2013 but at what cost?"
+  },
+  "235": {
+    "location": "Foggy Graveyard",
+    "action": "Find a Hidden Relic",
+    "fate": "The supernatural takes over.",
+    "story": "In the foggy graveyard, you chose to find a hidden relic. The supernatural takes over."
+  },
+  "236": {
+    "location": "Foggy Graveyard",
+    "action": "Find a Hidden Relic",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the foggy graveyard, you chose to find a hidden relic. You awaken \u2013 was it all a dream?"
+  },
+  "241": {
+    "location": "Foggy Graveyard",
+    "action": "Face a Phantom",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the foggy graveyard, you chose to face a phantom. You succeed \u2013 but something followed you back."
+  },
+  "242": {
+    "location": "Foggy Graveyard",
+    "action": "Face a Phantom",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the foggy graveyard, you chose to face a phantom. You fail \u2013 the curse spreads."
+  },
+  "243": {
+    "location": "Foggy Graveyard",
+    "action": "Face a Phantom",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the foggy graveyard, you chose to face a phantom. You vanish \u2013 your name is forgotten."
+  },
+  "244": {
+    "location": "Foggy Graveyard",
+    "action": "Face a Phantom",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the foggy graveyard, you chose to face a phantom. You succeed \u2013 but at what cost?"
+  },
+  "245": {
+    "location": "Foggy Graveyard",
+    "action": "Face a Phantom",
+    "fate": "The supernatural takes over.",
+    "story": "In the foggy graveyard, you chose to face a phantom. The supernatural takes over."
+  },
+  "246": {
+    "location": "Foggy Graveyard",
+    "action": "Face a Phantom",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the foggy graveyard, you chose to face a phantom. You awaken \u2013 was it all a dream?"
+  },
+  "251": {
+    "location": "Foggy Graveyard",
+    "action": "Release a Curse",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the foggy graveyard, you chose to release a curse. You succeed \u2013 but something followed you back."
+  },
+  "252": {
+    "location": "Foggy Graveyard",
+    "action": "Release a Curse",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the foggy graveyard, you chose to release a curse. You fail \u2013 the curse spreads."
+  },
+  "253": {
+    "location": "Foggy Graveyard",
+    "action": "Release a Curse",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the foggy graveyard, you chose to release a curse. You vanish \u2013 your name is forgotten."
+  },
+  "254": {
+    "location": "Foggy Graveyard",
+    "action": "Release a Curse",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the foggy graveyard, you chose to release a curse. You succeed \u2013 but at what cost?"
+  },
+  "255": {
+    "location": "Foggy Graveyard",
+    "action": "Release a Curse",
+    "fate": "The supernatural takes over.",
+    "story": "In the foggy graveyard, you chose to release a curse. The supernatural takes over."
+  },
+  "256": {
+    "location": "Foggy Graveyard",
+    "action": "Release a Curse",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the foggy graveyard, you chose to release a curse. You awaken \u2013 was it all a dream?"
+  },
+  "261": {
+    "location": "Foggy Graveyard",
+    "action": "Investigate the Grounds",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the foggy graveyard, you chose to investigate the grounds. You succeed \u2013 but something followed you back."
+  },
+  "262": {
+    "location": "Foggy Graveyard",
+    "action": "Investigate the Grounds",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the foggy graveyard, you chose to investigate the grounds. You fail \u2013 the curse spreads."
+  },
+  "263": {
+    "location": "Foggy Graveyard",
+    "action": "Investigate the Grounds",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the foggy graveyard, you chose to investigate the grounds. You vanish \u2013 your name is forgotten."
+  },
+  "264": {
+    "location": "Foggy Graveyard",
+    "action": "Investigate the Grounds",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the foggy graveyard, you chose to investigate the grounds. You succeed \u2013 but at what cost?"
+  },
+  "265": {
+    "location": "Foggy Graveyard",
+    "action": "Investigate the Grounds",
+    "fate": "The supernatural takes over.",
+    "story": "In the foggy graveyard, you chose to investigate the grounds. The supernatural takes over."
+  },
+  "266": {
+    "location": "Foggy Graveyard",
+    "action": "Investigate the Grounds",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the foggy graveyard, you chose to investigate the grounds. You awaken \u2013 was it all a dream?"
+  },
+  "311": {
+    "location": "Cursed Cathedral",
+    "action": "Summon a Spirit",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the cursed cathedral, you chose to summon a spirit. You succeed \u2013 but something followed you back."
+  },
+  "312": {
+    "location": "Cursed Cathedral",
+    "action": "Summon a Spirit",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the cursed cathedral, you chose to summon a spirit. You fail \u2013 the curse spreads."
+  },
+  "313": {
+    "location": "Cursed Cathedral",
+    "action": "Summon a Spirit",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the cursed cathedral, you chose to summon a spirit. You vanish \u2013 your name is forgotten."
+  },
+  "314": {
+    "location": "Cursed Cathedral",
+    "action": "Summon a Spirit",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the cursed cathedral, you chose to summon a spirit. You succeed \u2013 but at what cost?"
+  },
+  "315": {
+    "location": "Cursed Cathedral",
+    "action": "Summon a Spirit",
+    "fate": "The supernatural takes over.",
+    "story": "In the cursed cathedral, you chose to summon a spirit. The supernatural takes over."
+  },
+  "316": {
+    "location": "Cursed Cathedral",
+    "action": "Summon a Spirit",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the cursed cathedral, you chose to summon a spirit. You awaken \u2013 was it all a dream?"
+  },
+  "321": {
+    "location": "Cursed Cathedral",
+    "action": "Speak to the Dead",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the cursed cathedral, you chose to speak to the dead. You succeed \u2013 but something followed you back."
+  },
+  "322": {
+    "location": "Cursed Cathedral",
+    "action": "Speak to the Dead",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the cursed cathedral, you chose to speak to the dead. You fail \u2013 the curse spreads."
+  },
+  "323": {
+    "location": "Cursed Cathedral",
+    "action": "Speak to the Dead",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the cursed cathedral, you chose to speak to the dead. You vanish \u2013 your name is forgotten."
+  },
+  "324": {
+    "location": "Cursed Cathedral",
+    "action": "Speak to the Dead",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the cursed cathedral, you chose to speak to the dead. You succeed \u2013 but at what cost?"
+  },
+  "325": {
+    "location": "Cursed Cathedral",
+    "action": "Speak to the Dead",
+    "fate": "The supernatural takes over.",
+    "story": "In the cursed cathedral, you chose to speak to the dead. The supernatural takes over."
+  },
+  "326": {
+    "location": "Cursed Cathedral",
+    "action": "Speak to the Dead",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the cursed cathedral, you chose to speak to the dead. You awaken \u2013 was it all a dream?"
+  },
+  "331": {
+    "location": "Cursed Cathedral",
+    "action": "Find a Hidden Relic",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the cursed cathedral, you chose to find a hidden relic. You succeed \u2013 but something followed you back."
+  },
+  "332": {
+    "location": "Cursed Cathedral",
+    "action": "Find a Hidden Relic",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the cursed cathedral, you chose to find a hidden relic. You fail \u2013 the curse spreads."
+  },
+  "333": {
+    "location": "Cursed Cathedral",
+    "action": "Find a Hidden Relic",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the cursed cathedral, you chose to find a hidden relic. You vanish \u2013 your name is forgotten."
+  },
+  "334": {
+    "location": "Cursed Cathedral",
+    "action": "Find a Hidden Relic",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the cursed cathedral, you chose to find a hidden relic. You succeed \u2013 but at what cost?"
+  },
+  "335": {
+    "location": "Cursed Cathedral",
+    "action": "Find a Hidden Relic",
+    "fate": "The supernatural takes over.",
+    "story": "In the cursed cathedral, you chose to find a hidden relic. The supernatural takes over."
+  },
+  "336": {
+    "location": "Cursed Cathedral",
+    "action": "Find a Hidden Relic",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the cursed cathedral, you chose to find a hidden relic. You awaken \u2013 was it all a dream?"
+  },
+  "341": {
+    "location": "Cursed Cathedral",
+    "action": "Face a Phantom",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the cursed cathedral, you chose to face a phantom. You succeed \u2013 but something followed you back."
+  },
+  "342": {
+    "location": "Cursed Cathedral",
+    "action": "Face a Phantom",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the cursed cathedral, you chose to face a phantom. You fail \u2013 the curse spreads."
+  },
+  "343": {
+    "location": "Cursed Cathedral",
+    "action": "Face a Phantom",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the cursed cathedral, you chose to face a phantom. You vanish \u2013 your name is forgotten."
+  },
+  "344": {
+    "location": "Cursed Cathedral",
+    "action": "Face a Phantom",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the cursed cathedral, you chose to face a phantom. You succeed \u2013 but at what cost?"
+  },
+  "345": {
+    "location": "Cursed Cathedral",
+    "action": "Face a Phantom",
+    "fate": "The supernatural takes over.",
+    "story": "In the cursed cathedral, you chose to face a phantom. The supernatural takes over."
+  },
+  "346": {
+    "location": "Cursed Cathedral",
+    "action": "Face a Phantom",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the cursed cathedral, you chose to face a phantom. You awaken \u2013 was it all a dream?"
+  },
+  "351": {
+    "location": "Cursed Cathedral",
+    "action": "Release a Curse",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the cursed cathedral, you chose to release a curse. You succeed \u2013 but something followed you back."
+  },
+  "352": {
+    "location": "Cursed Cathedral",
+    "action": "Release a Curse",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the cursed cathedral, you chose to release a curse. You fail \u2013 the curse spreads."
+  },
+  "353": {
+    "location": "Cursed Cathedral",
+    "action": "Release a Curse",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the cursed cathedral, you chose to release a curse. You vanish \u2013 your name is forgotten."
+  },
+  "354": {
+    "location": "Cursed Cathedral",
+    "action": "Release a Curse",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the cursed cathedral, you chose to release a curse. You succeed \u2013 but at what cost?"
+  },
+  "355": {
+    "location": "Cursed Cathedral",
+    "action": "Release a Curse",
+    "fate": "The supernatural takes over.",
+    "story": "In the cursed cathedral, you chose to release a curse. The supernatural takes over."
+  },
+  "356": {
+    "location": "Cursed Cathedral",
+    "action": "Release a Curse",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the cursed cathedral, you chose to release a curse. You awaken \u2013 was it all a dream?"
+  },
+  "361": {
+    "location": "Cursed Cathedral",
+    "action": "Investigate the Grounds",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the cursed cathedral, you chose to investigate the grounds. You succeed \u2013 but something followed you back."
+  },
+  "362": {
+    "location": "Cursed Cathedral",
+    "action": "Investigate the Grounds",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the cursed cathedral, you chose to investigate the grounds. You fail \u2013 the curse spreads."
+  },
+  "363": {
+    "location": "Cursed Cathedral",
+    "action": "Investigate the Grounds",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the cursed cathedral, you chose to investigate the grounds. You vanish \u2013 your name is forgotten."
+  },
+  "364": {
+    "location": "Cursed Cathedral",
+    "action": "Investigate the Grounds",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the cursed cathedral, you chose to investigate the grounds. You succeed \u2013 but at what cost?"
+  },
+  "365": {
+    "location": "Cursed Cathedral",
+    "action": "Investigate the Grounds",
+    "fate": "The supernatural takes over.",
+    "story": "In the cursed cathedral, you chose to investigate the grounds. The supernatural takes over."
+  },
+  "366": {
+    "location": "Cursed Cathedral",
+    "action": "Investigate the Grounds",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the cursed cathedral, you chose to investigate the grounds. You awaken \u2013 was it all a dream?"
+  },
+  "411": {
+    "location": "Haunted Forest",
+    "action": "Summon a Spirit",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the haunted forest, you chose to summon a spirit. You succeed \u2013 but something followed you back."
+  },
+  "412": {
+    "location": "Haunted Forest",
+    "action": "Summon a Spirit",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the haunted forest, you chose to summon a spirit. You fail \u2013 the curse spreads."
+  },
+  "413": {
+    "location": "Haunted Forest",
+    "action": "Summon a Spirit",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the haunted forest, you chose to summon a spirit. You vanish \u2013 your name is forgotten."
+  },
+  "414": {
+    "location": "Haunted Forest",
+    "action": "Summon a Spirit",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the haunted forest, you chose to summon a spirit. You succeed \u2013 but at what cost?"
+  },
+  "415": {
+    "location": "Haunted Forest",
+    "action": "Summon a Spirit",
+    "fate": "The supernatural takes over.",
+    "story": "In the haunted forest, you chose to summon a spirit. The supernatural takes over."
+  },
+  "416": {
+    "location": "Haunted Forest",
+    "action": "Summon a Spirit",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the haunted forest, you chose to summon a spirit. You awaken \u2013 was it all a dream?"
+  },
+  "421": {
+    "location": "Haunted Forest",
+    "action": "Speak to the Dead",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the haunted forest, you chose to speak to the dead. You succeed \u2013 but something followed you back."
+  },
+  "422": {
+    "location": "Haunted Forest",
+    "action": "Speak to the Dead",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the haunted forest, you chose to speak to the dead. You fail \u2013 the curse spreads."
+  },
+  "423": {
+    "location": "Haunted Forest",
+    "action": "Speak to the Dead",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the haunted forest, you chose to speak to the dead. You vanish \u2013 your name is forgotten."
+  },
+  "424": {
+    "location": "Haunted Forest",
+    "action": "Speak to the Dead",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the haunted forest, you chose to speak to the dead. You succeed \u2013 but at what cost?"
+  },
+  "425": {
+    "location": "Haunted Forest",
+    "action": "Speak to the Dead",
+    "fate": "The supernatural takes over.",
+    "story": "In the haunted forest, you chose to speak to the dead. The supernatural takes over."
+  },
+  "426": {
+    "location": "Haunted Forest",
+    "action": "Speak to the Dead",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the haunted forest, you chose to speak to the dead. You awaken \u2013 was it all a dream?"
+  },
+  "431": {
+    "location": "Haunted Forest",
+    "action": "Find a Hidden Relic",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the haunted forest, you chose to find a hidden relic. You succeed \u2013 but something followed you back."
+  },
+  "432": {
+    "location": "Haunted Forest",
+    "action": "Find a Hidden Relic",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the haunted forest, you chose to find a hidden relic. You fail \u2013 the curse spreads."
+  },
+  "433": {
+    "location": "Haunted Forest",
+    "action": "Find a Hidden Relic",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the haunted forest, you chose to find a hidden relic. You vanish \u2013 your name is forgotten."
+  },
+  "434": {
+    "location": "Haunted Forest",
+    "action": "Find a Hidden Relic",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the haunted forest, you chose to find a hidden relic. You succeed \u2013 but at what cost?"
+  },
+  "435": {
+    "location": "Haunted Forest",
+    "action": "Find a Hidden Relic",
+    "fate": "The supernatural takes over.",
+    "story": "In the haunted forest, you chose to find a hidden relic. The supernatural takes over."
+  },
+  "436": {
+    "location": "Haunted Forest",
+    "action": "Find a Hidden Relic",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the haunted forest, you chose to find a hidden relic. You awaken \u2013 was it all a dream?"
+  },
+  "441": {
+    "location": "Haunted Forest",
+    "action": "Face a Phantom",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the haunted forest, you chose to face a phantom. You succeed \u2013 but something followed you back."
+  },
+  "442": {
+    "location": "Haunted Forest",
+    "action": "Face a Phantom",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the haunted forest, you chose to face a phantom. You fail \u2013 the curse spreads."
+  },
+  "443": {
+    "location": "Haunted Forest",
+    "action": "Face a Phantom",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the haunted forest, you chose to face a phantom. You vanish \u2013 your name is forgotten."
+  },
+  "444": {
+    "location": "Haunted Forest",
+    "action": "Face a Phantom",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the haunted forest, you chose to face a phantom. You succeed \u2013 but at what cost?"
+  },
+  "445": {
+    "location": "Haunted Forest",
+    "action": "Face a Phantom",
+    "fate": "The supernatural takes over.",
+    "story": "In the haunted forest, you chose to face a phantom. The supernatural takes over."
+  },
+  "446": {
+    "location": "Haunted Forest",
+    "action": "Face a Phantom",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the haunted forest, you chose to face a phantom. You awaken \u2013 was it all a dream?"
+  },
+  "451": {
+    "location": "Haunted Forest",
+    "action": "Release a Curse",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the haunted forest, you chose to release a curse. You succeed \u2013 but something followed you back."
+  },
+  "452": {
+    "location": "Haunted Forest",
+    "action": "Release a Curse",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the haunted forest, you chose to release a curse. You fail \u2013 the curse spreads."
+  },
+  "453": {
+    "location": "Haunted Forest",
+    "action": "Release a Curse",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the haunted forest, you chose to release a curse. You vanish \u2013 your name is forgotten."
+  },
+  "454": {
+    "location": "Haunted Forest",
+    "action": "Release a Curse",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the haunted forest, you chose to release a curse. You succeed \u2013 but at what cost?"
+  },
+  "455": {
+    "location": "Haunted Forest",
+    "action": "Release a Curse",
+    "fate": "The supernatural takes over.",
+    "story": "In the haunted forest, you chose to release a curse. The supernatural takes over."
+  },
+  "456": {
+    "location": "Haunted Forest",
+    "action": "Release a Curse",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the haunted forest, you chose to release a curse. You awaken \u2013 was it all a dream?"
+  },
+  "461": {
+    "location": "Haunted Forest",
+    "action": "Investigate the Grounds",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the haunted forest, you chose to investigate the grounds. You succeed \u2013 but something followed you back."
+  },
+  "462": {
+    "location": "Haunted Forest",
+    "action": "Investigate the Grounds",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the haunted forest, you chose to investigate the grounds. You fail \u2013 the curse spreads."
+  },
+  "463": {
+    "location": "Haunted Forest",
+    "action": "Investigate the Grounds",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the haunted forest, you chose to investigate the grounds. You vanish \u2013 your name is forgotten."
+  },
+  "464": {
+    "location": "Haunted Forest",
+    "action": "Investigate the Grounds",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the haunted forest, you chose to investigate the grounds. You succeed \u2013 but at what cost?"
+  },
+  "465": {
+    "location": "Haunted Forest",
+    "action": "Investigate the Grounds",
+    "fate": "The supernatural takes over.",
+    "story": "In the haunted forest, you chose to investigate the grounds. The supernatural takes over."
+  },
+  "466": {
+    "location": "Haunted Forest",
+    "action": "Investigate the Grounds",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the haunted forest, you chose to investigate the grounds. You awaken \u2013 was it all a dream?"
+  },
+  "511": {
+    "location": "Mirror Dimension",
+    "action": "Summon a Spirit",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the mirror dimension, you chose to summon a spirit. You succeed \u2013 but something followed you back."
+  },
+  "512": {
+    "location": "Mirror Dimension",
+    "action": "Summon a Spirit",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the mirror dimension, you chose to summon a spirit. You fail \u2013 the curse spreads."
+  },
+  "513": {
+    "location": "Mirror Dimension",
+    "action": "Summon a Spirit",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the mirror dimension, you chose to summon a spirit. You vanish \u2013 your name is forgotten."
+  },
+  "514": {
+    "location": "Mirror Dimension",
+    "action": "Summon a Spirit",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the mirror dimension, you chose to summon a spirit. You succeed \u2013 but at what cost?"
+  },
+  "515": {
+    "location": "Mirror Dimension",
+    "action": "Summon a Spirit",
+    "fate": "The supernatural takes over.",
+    "story": "In the mirror dimension, you chose to summon a spirit. The supernatural takes over."
+  },
+  "516": {
+    "location": "Mirror Dimension",
+    "action": "Summon a Spirit",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the mirror dimension, you chose to summon a spirit. You awaken \u2013 was it all a dream?"
+  },
+  "521": {
+    "location": "Mirror Dimension",
+    "action": "Speak to the Dead",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the mirror dimension, you chose to speak to the dead. You succeed \u2013 but something followed you back."
+  },
+  "522": {
+    "location": "Mirror Dimension",
+    "action": "Speak to the Dead",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the mirror dimension, you chose to speak to the dead. You fail \u2013 the curse spreads."
+  },
+  "523": {
+    "location": "Mirror Dimension",
+    "action": "Speak to the Dead",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the mirror dimension, you chose to speak to the dead. You vanish \u2013 your name is forgotten."
+  },
+  "524": {
+    "location": "Mirror Dimension",
+    "action": "Speak to the Dead",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the mirror dimension, you chose to speak to the dead. You succeed \u2013 but at what cost?"
+  },
+  "525": {
+    "location": "Mirror Dimension",
+    "action": "Speak to the Dead",
+    "fate": "The supernatural takes over.",
+    "story": "In the mirror dimension, you chose to speak to the dead. The supernatural takes over."
+  },
+  "526": {
+    "location": "Mirror Dimension",
+    "action": "Speak to the Dead",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the mirror dimension, you chose to speak to the dead. You awaken \u2013 was it all a dream?"
+  },
+  "531": {
+    "location": "Mirror Dimension",
+    "action": "Find a Hidden Relic",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the mirror dimension, you chose to find a hidden relic. You succeed \u2013 but something followed you back."
+  },
+  "532": {
+    "location": "Mirror Dimension",
+    "action": "Find a Hidden Relic",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the mirror dimension, you chose to find a hidden relic. You fail \u2013 the curse spreads."
+  },
+  "533": {
+    "location": "Mirror Dimension",
+    "action": "Find a Hidden Relic",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the mirror dimension, you chose to find a hidden relic. You vanish \u2013 your name is forgotten."
+  },
+  "534": {
+    "location": "Mirror Dimension",
+    "action": "Find a Hidden Relic",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the mirror dimension, you chose to find a hidden relic. You succeed \u2013 but at what cost?"
+  },
+  "535": {
+    "location": "Mirror Dimension",
+    "action": "Find a Hidden Relic",
+    "fate": "The supernatural takes over.",
+    "story": "In the mirror dimension, you chose to find a hidden relic. The supernatural takes over."
+  },
+  "536": {
+    "location": "Mirror Dimension",
+    "action": "Find a Hidden Relic",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the mirror dimension, you chose to find a hidden relic. You awaken \u2013 was it all a dream?"
+  },
+  "541": {
+    "location": "Mirror Dimension",
+    "action": "Face a Phantom",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the mirror dimension, you chose to face a phantom. You succeed \u2013 but something followed you back."
+  },
+  "542": {
+    "location": "Mirror Dimension",
+    "action": "Face a Phantom",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the mirror dimension, you chose to face a phantom. You fail \u2013 the curse spreads."
+  },
+  "543": {
+    "location": "Mirror Dimension",
+    "action": "Face a Phantom",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the mirror dimension, you chose to face a phantom. You vanish \u2013 your name is forgotten."
+  },
+  "544": {
+    "location": "Mirror Dimension",
+    "action": "Face a Phantom",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the mirror dimension, you chose to face a phantom. You succeed \u2013 but at what cost?"
+  },
+  "545": {
+    "location": "Mirror Dimension",
+    "action": "Face a Phantom",
+    "fate": "The supernatural takes over.",
+    "story": "In the mirror dimension, you chose to face a phantom. The supernatural takes over."
+  },
+  "546": {
+    "location": "Mirror Dimension",
+    "action": "Face a Phantom",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the mirror dimension, you chose to face a phantom. You awaken \u2013 was it all a dream?"
+  },
+  "551": {
+    "location": "Mirror Dimension",
+    "action": "Release a Curse",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the mirror dimension, you chose to release a curse. You succeed \u2013 but something followed you back."
+  },
+  "552": {
+    "location": "Mirror Dimension",
+    "action": "Release a Curse",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the mirror dimension, you chose to release a curse. You fail \u2013 the curse spreads."
+  },
+  "553": {
+    "location": "Mirror Dimension",
+    "action": "Release a Curse",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the mirror dimension, you chose to release a curse. You vanish \u2013 your name is forgotten."
+  },
+  "554": {
+    "location": "Mirror Dimension",
+    "action": "Release a Curse",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the mirror dimension, you chose to release a curse. You succeed \u2013 but at what cost?"
+  },
+  "555": {
+    "location": "Mirror Dimension",
+    "action": "Release a Curse",
+    "fate": "The supernatural takes over.",
+    "story": "In the mirror dimension, you chose to release a curse. The supernatural takes over."
+  },
+  "556": {
+    "location": "Mirror Dimension",
+    "action": "Release a Curse",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the mirror dimension, you chose to release a curse. You awaken \u2013 was it all a dream?"
+  },
+  "561": {
+    "location": "Mirror Dimension",
+    "action": "Investigate the Grounds",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the mirror dimension, you chose to investigate the grounds. You succeed \u2013 but something followed you back."
+  },
+  "562": {
+    "location": "Mirror Dimension",
+    "action": "Investigate the Grounds",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the mirror dimension, you chose to investigate the grounds. You fail \u2013 the curse spreads."
+  },
+  "563": {
+    "location": "Mirror Dimension",
+    "action": "Investigate the Grounds",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the mirror dimension, you chose to investigate the grounds. You vanish \u2013 your name is forgotten."
+  },
+  "564": {
+    "location": "Mirror Dimension",
+    "action": "Investigate the Grounds",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the mirror dimension, you chose to investigate the grounds. You succeed \u2013 but at what cost?"
+  },
+  "565": {
+    "location": "Mirror Dimension",
+    "action": "Investigate the Grounds",
+    "fate": "The supernatural takes over.",
+    "story": "In the mirror dimension, you chose to investigate the grounds. The supernatural takes over."
+  },
+  "566": {
+    "location": "Mirror Dimension",
+    "action": "Investigate the Grounds",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the mirror dimension, you chose to investigate the grounds. You awaken \u2013 was it all a dream?"
+  },
+  "611": {
+    "location": "Ghostly Crypt",
+    "action": "Summon a Spirit",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the ghostly crypt, you chose to summon a spirit. You succeed \u2013 but something followed you back."
+  },
+  "612": {
+    "location": "Ghostly Crypt",
+    "action": "Summon a Spirit",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the ghostly crypt, you chose to summon a spirit. You fail \u2013 the curse spreads."
+  },
+  "613": {
+    "location": "Ghostly Crypt",
+    "action": "Summon a Spirit",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the ghostly crypt, you chose to summon a spirit. You vanish \u2013 your name is forgotten."
+  },
+  "614": {
+    "location": "Ghostly Crypt",
+    "action": "Summon a Spirit",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the ghostly crypt, you chose to summon a spirit. You succeed \u2013 but at what cost?"
+  },
+  "615": {
+    "location": "Ghostly Crypt",
+    "action": "Summon a Spirit",
+    "fate": "The supernatural takes over.",
+    "story": "In the ghostly crypt, you chose to summon a spirit. The supernatural takes over."
+  },
+  "616": {
+    "location": "Ghostly Crypt",
+    "action": "Summon a Spirit",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the ghostly crypt, you chose to summon a spirit. You awaken \u2013 was it all a dream?"
+  },
+  "621": {
+    "location": "Ghostly Crypt",
+    "action": "Speak to the Dead",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the ghostly crypt, you chose to speak to the dead. You succeed \u2013 but something followed you back."
+  },
+  "622": {
+    "location": "Ghostly Crypt",
+    "action": "Speak to the Dead",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the ghostly crypt, you chose to speak to the dead. You fail \u2013 the curse spreads."
+  },
+  "623": {
+    "location": "Ghostly Crypt",
+    "action": "Speak to the Dead",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the ghostly crypt, you chose to speak to the dead. You vanish \u2013 your name is forgotten."
+  },
+  "624": {
+    "location": "Ghostly Crypt",
+    "action": "Speak to the Dead",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the ghostly crypt, you chose to speak to the dead. You succeed \u2013 but at what cost?"
+  },
+  "625": {
+    "location": "Ghostly Crypt",
+    "action": "Speak to the Dead",
+    "fate": "The supernatural takes over.",
+    "story": "In the ghostly crypt, you chose to speak to the dead. The supernatural takes over."
+  },
+  "626": {
+    "location": "Ghostly Crypt",
+    "action": "Speak to the Dead",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the ghostly crypt, you chose to speak to the dead. You awaken \u2013 was it all a dream?"
+  },
+  "631": {
+    "location": "Ghostly Crypt",
+    "action": "Find a Hidden Relic",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the ghostly crypt, you chose to find a hidden relic. You succeed \u2013 but something followed you back."
+  },
+  "632": {
+    "location": "Ghostly Crypt",
+    "action": "Find a Hidden Relic",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the ghostly crypt, you chose to find a hidden relic. You fail \u2013 the curse spreads."
+  },
+  "633": {
+    "location": "Ghostly Crypt",
+    "action": "Find a Hidden Relic",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the ghostly crypt, you chose to find a hidden relic. You vanish \u2013 your name is forgotten."
+  },
+  "634": {
+    "location": "Ghostly Crypt",
+    "action": "Find a Hidden Relic",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the ghostly crypt, you chose to find a hidden relic. You succeed \u2013 but at what cost?"
+  },
+  "635": {
+    "location": "Ghostly Crypt",
+    "action": "Find a Hidden Relic",
+    "fate": "The supernatural takes over.",
+    "story": "In the ghostly crypt, you chose to find a hidden relic. The supernatural takes over."
+  },
+  "636": {
+    "location": "Ghostly Crypt",
+    "action": "Find a Hidden Relic",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the ghostly crypt, you chose to find a hidden relic. You awaken \u2013 was it all a dream?"
+  },
+  "641": {
+    "location": "Ghostly Crypt",
+    "action": "Face a Phantom",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the ghostly crypt, you chose to face a phantom. You succeed \u2013 but something followed you back."
+  },
+  "642": {
+    "location": "Ghostly Crypt",
+    "action": "Face a Phantom",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the ghostly crypt, you chose to face a phantom. You fail \u2013 the curse spreads."
+  },
+  "643": {
+    "location": "Ghostly Crypt",
+    "action": "Face a Phantom",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the ghostly crypt, you chose to face a phantom. You vanish \u2013 your name is forgotten."
+  },
+  "644": {
+    "location": "Ghostly Crypt",
+    "action": "Face a Phantom",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the ghostly crypt, you chose to face a phantom. You succeed \u2013 but at what cost?"
+  },
+  "645": {
+    "location": "Ghostly Crypt",
+    "action": "Face a Phantom",
+    "fate": "The supernatural takes over.",
+    "story": "In the ghostly crypt, you chose to face a phantom. The supernatural takes over."
+  },
+  "646": {
+    "location": "Ghostly Crypt",
+    "action": "Face a Phantom",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the ghostly crypt, you chose to face a phantom. You awaken \u2013 was it all a dream?"
+  },
+  "651": {
+    "location": "Ghostly Crypt",
+    "action": "Release a Curse",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the ghostly crypt, you chose to release a curse. You succeed \u2013 but something followed you back."
+  },
+  "652": {
+    "location": "Ghostly Crypt",
+    "action": "Release a Curse",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the ghostly crypt, you chose to release a curse. You fail \u2013 the curse spreads."
+  },
+  "653": {
+    "location": "Ghostly Crypt",
+    "action": "Release a Curse",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the ghostly crypt, you chose to release a curse. You vanish \u2013 your name is forgotten."
+  },
+  "654": {
+    "location": "Ghostly Crypt",
+    "action": "Release a Curse",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the ghostly crypt, you chose to release a curse. You succeed \u2013 but at what cost?"
+  },
+  "655": {
+    "location": "Ghostly Crypt",
+    "action": "Release a Curse",
+    "fate": "The supernatural takes over.",
+    "story": "In the ghostly crypt, you chose to release a curse. The supernatural takes over."
+  },
+  "656": {
+    "location": "Ghostly Crypt",
+    "action": "Release a Curse",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the ghostly crypt, you chose to release a curse. You awaken \u2013 was it all a dream?"
+  },
+  "661": {
+    "location": "Ghostly Crypt",
+    "action": "Investigate the Grounds",
+    "fate": "You succeed \u2013 but something followed you back.",
+    "story": "In the ghostly crypt, you chose to investigate the grounds. You succeed \u2013 but something followed you back."
+  },
+  "662": {
+    "location": "Ghostly Crypt",
+    "action": "Investigate the Grounds",
+    "fate": "You fail \u2013 the curse spreads.",
+    "story": "In the ghostly crypt, you chose to investigate the grounds. You fail \u2013 the curse spreads."
+  },
+  "663": {
+    "location": "Ghostly Crypt",
+    "action": "Investigate the Grounds",
+    "fate": "You vanish \u2013 your name is forgotten.",
+    "story": "In the ghostly crypt, you chose to investigate the grounds. You vanish \u2013 your name is forgotten."
+  },
+  "664": {
+    "location": "Ghostly Crypt",
+    "action": "Investigate the Grounds",
+    "fate": "You succeed \u2013 but at what cost?",
+    "story": "In the ghostly crypt, you chose to investigate the grounds. You succeed \u2013 but at what cost?"
+  },
+  "665": {
+    "location": "Ghostly Crypt",
+    "action": "Investigate the Grounds",
+    "fate": "The supernatural takes over.",
+    "story": "In the ghostly crypt, you chose to investigate the grounds. The supernatural takes over."
+  },
+  "666": {
+    "location": "Ghostly Crypt",
+    "action": "Investigate the Grounds",
+    "fate": "You awaken \u2013 was it all a dream?",
+    "story": "In the ghostly crypt, you chose to investigate the grounds. You awaken \u2013 was it all a dream?"
+  }
+}
