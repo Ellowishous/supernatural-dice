@@ -73,6 +73,38 @@
   <div class="result" id="result"></div>
 
   <script>
+
+    <script>
+  let storyMap = {};
+
+  // Load the JSON file when the page loads
+  fetch('stories.json')
+    .then(response => response.json())
+    .then(data => {
+      storyMap = data;
+    })
+    .catch(error => {
+      console.error('Failed to load stories:', error);
+    });
+
+  function showStory() {
+    const input = document.getElementById("comboInput").value.trim();
+    const output = document.getElementById("storyOutput");
+
+    if (/^[1-6]{3}$/.test(input)) {
+      const story = storyMap[input];
+      if (story) {
+        output.textContent = story;
+      } else {
+        output.textContent = "That combination exists, but no story has been written for it yet.";
+      }
+    } else {
+      output.textContent = "Please enter a valid 3-digit combination using numbers 1–6.";
+    }
+  }
+</script>
+
+
     const paths = {
       "1-1-1": "You entered the Haunted Asylum, performed a forbidden summoning, and are now trapped in eternal slumber.",
       "2-4-3": "You explored the Abandoned Church, unleashed forgotten wrath, and found rebirth through fire.",
