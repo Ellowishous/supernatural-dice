@@ -73,38 +73,21 @@
   <div class="result" id="result"></div>
 
   <script>
-    <script>
-  function rollDice() {
-    const location = Math.floor(Math.random() * 6) + 1;
-    const action = Math.floor(Math.random() * 6) + 1;
-    const fate = Math.floor(Math.random() * 6) + 1;
-    const key = `${location}-${action}-${fate}`;
-    const story = stories[key] || "Nothing happens... yet.";
+    const paths = {
+      "1-1-1": "You entered the Haunted Asylum, performed a forbidden summoning, and are now trapped in eternal slumber.",
+      "2-4-3": "You explored the Abandoned Church, unleashed forgotten wrath, and found rebirth through fire.",
+      "1-1-2": "The summoning circle flickers, unstable. The spirit screams through the veil, its wrath shattering your protection. A chill rushes outward- and the curse seeps into the world.",\par
+      // Add more combinations here as desired...
+    };
 
-    document.getElementById("result").innerText = `🎲 ${key}\n${story}`;
-  }
-
-  const stories = {
-    "1-1-1": "PLACEHOLDER: The attic groaned as footsteps echoed — but no one was there.",
-    "1-1-2": "PLACEHOLDER: Dust floated in the basement air, spelling out a warning.",
-    "1-1-3": "PLACEHOLDER: The lights flickered in the forest clearing, then vanished.",
-    // ... continue with all combinations ...
-  };
-
-  // Automatically generate all remaining combinations with placeholder text:
-  for (let l = 1; l <= 6; l++) {
-    for (let a = 1; a <= 6; a++) {
-      for (let f = 1; f <= 6; f++) {
-        const key = `${l}-${a}-${f}`;
-        if (!stories[key]) {
-          stories[key] = `PLACEHOLDER: An eerie event occurred at combo ${key}.`;
-        }
-      }
+    function revealPath() {
+      const l = document.getElementById('location').value;
+      const a = document.getElementById('action').value;
+      const f = document.getElementById('fate').value;
+      const key = `${l}-${a}-${f}`;
+      const story = paths[key] || "The spirits are silent... this path has yet to be uncovered.";
+      document.getElementById('result').textContent = story;
     }
-  }
-</script>
-
   </script>
 </body>
-  <div id="result" style="white-space: pre-wrap; margin-top: 1em;"></div>div>
 </html>
